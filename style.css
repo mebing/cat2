@@ -1,0 +1,50 @@
+h1 {
+  font-size: 101px;
+  text-align: center;
+  border-bottom: 10px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+navigation {
+  border: solid 5px black;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  margin-left: 70px;
+  margin-right: 70px;
+  /* width: 300px; */
+}
+
+.nav-right {
+  padding-left: 80%;
+  /* text-align: right; */
+}
+
+#home,
+#picture,
+#etc {
+  /* text-decoration: none; */
+  color: black;
+}
+
+section {
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 40%;
+}
+
+footer {
+  border-top: black 3px solid;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+  color: black;
+  padding-top: 20px;
+}
